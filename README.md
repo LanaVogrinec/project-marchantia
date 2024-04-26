@@ -1,14 +1,22 @@
+<<<<<<< HEAD
 # Snakemake workflow: `marchantia-project`
+=======
+# Snakemake workflow: `project-marchantia`
+>>>>>>> fbb2e877af4b2d2e661c6f44e4a6c0bd35258f74
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥6.3.0-brightgreen.svg)](https://snakemake.github.io)
-[![GitHub actions status](https://github.com/nezapajek/tobamo-project/workflows/Tests/badge.svg?branch=main)](https://github.com/nezapajek/tobamo-project/actions?query=branch%3Amain+workflow%3ATests)
+[![GitHub actions status](https://github.com/nezapajek/project-tobamo/workflows/Tests/badge.svg?branch=main)](https://github.com/nezapajek/project-tobamo/actions?query=branch%3Amain+workflow%3ATests)
 
 
+<<<<<<< HEAD
 A Snakemake workflow for searching for DNA viruses of Marchantia polymorpha.
+=======
+A Snakemake workflow for searching for DNA viruses of Marchantia polymorpha (based on the project-tobamo workflow cited above)
+>>>>>>> fbb2e877af4b2d2e661c6f44e4a6c0bd35258f74
 
 ## Usage
 
-The usage of this workflow is described in the [Snakemake Workflow Catalog](https://snakemake.github.io/snakemake-workflow-catalog/?usage=nezapajek%2Ftobamo-project).
+The usage of this workflow is described in the [Snakemake Workflow Catalog](https://snakemake.github.io/snakemake-workflow-catalog/?usage=nezapajek%2Fproject-tobamo).
 
 If you use this workflow in a paper, don't forget to give credits to the authors by citing the URL of this (original) repository.
 

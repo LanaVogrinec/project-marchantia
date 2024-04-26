@@ -3,6 +3,7 @@
 # https://snakemake.readthedocs.io/en/stable/snakefiles/best_practices.html,
 # in particular regarding the standardized folder structure mentioned there.
 
+<<<<<<< HEAD
 # conda activate snakemake
 # snakemake --use-conda -c60 -k -p
 
@@ -16,6 +17,16 @@ import pandas as pd
 
 =======
 import pandas as pd
+=======
+# conda activate tobamo-snakemake
+# snakemake -n already starts the download
+# snakemake --use-conda -c40 -k -p
+# time snakemake --use-conda -c 32 -p -k > output_29-3-2024.txt 2>&1
+# time snakemake --use-conda --rerun-trigger mtime -c40
+
+import pandas as pd
+
+>>>>>>> fbb2e877af4b2d2e661c6f44e4a6c0bd35258f74
 
 >>>>>>> edec49089aa13d94fd104b786797fb906496cb3c
 configfile: "config/config.yaml"
@@ -25,10 +36,17 @@ samples = pd.read_table(config["samples"])
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 # ##### Target rules #####
 =======
+=======
+wildcard_constraints:
+    accession="ERR\d+|SRR\d+|DRR\d+",
+
+
+>>>>>>> fbb2e877af4b2d2e661c6f44e4a6c0bd35258f74
 ##### Target rules #####
 >>>>>>> edec49089aa13d94fd104b786797fb906496cb3c
 
@@ -41,6 +59,13 @@ rule all:
         
         
 
+<<<<<<< HEAD
+=======
+##### Modules #####
+DEBUG = False
+
+if DEBUG:
+>>>>>>> fbb2e877af4b2d2e661c6f44e4a6c0bd35258f74
 
 
 
